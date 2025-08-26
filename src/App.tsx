@@ -1,9 +1,15 @@
 import "./App.css";
 
-function App({ headerText }) {
+interface AppProps {
+  headerText: string;
+  extraText?: string;
+}
+
+function App({ headerText, extraText = "extra text" }: AppProps) {
   return (
     <>
       <h1>{headerText}</h1>
+      {extraText && <p>{extraText}</p>}
     </>
   );
 }

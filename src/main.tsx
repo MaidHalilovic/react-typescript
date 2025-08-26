@@ -5,6 +5,6 @@ import App from "./App.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App headerText='This is header text' />
+    <App headerText='This is header text' extraText='extraText' />
   </StrictMode>
 );
