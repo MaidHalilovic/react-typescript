@@ -17,6 +17,24 @@ function App() {
   //     },
   //     admin: false,
   //   });
+  //////////////////////////
+  // type TUserProps = {
+  //   name: string;
+  //   age: number;
+  // };
+
+  // type AdminProps = TUserProps & {
+  //   role: string;
+  // };
+
+  // interface IUserProps = {
+  //   name: string;
+  //   age: number;
+  // }
+
+  // interdace IAdminProps extends IUserProps {
+  //   role: string;
+  // }
 
   return (
     <>
